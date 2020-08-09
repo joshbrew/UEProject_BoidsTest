@@ -10,7 +10,7 @@ TestAI Checklist
 - AI has group vision with line of sight and distance checking for you and for group members. If another AI is within range, and another AI is too far away but within that AI's range, it will spot you. These are toggleable options too.
 
 TODO:
-- Data table based group vision so I don't have to loop through each class every time and can just check tabulated group vision. Have AI only check their local group for vision, which will be assembled dynamically. For performance reasons.
+- Grouping
 - Test Patrolling, the automatic pathing should be just fine.
 - Dynamic and fixed grouping, flocking behaviors (i.e. creating cool flow patterns while idle or when grouped)
 - Tune Physics, create mass physics behaviors.
