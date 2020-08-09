@@ -13,7 +13,7 @@ TODO:
 - TEst Patrolling, the automatic pathing should be just fine.
 - Dynamic and fixed grouping, flocking behaviors (i.e. creating cool flow patterns while idle or when grouped)
 - Tune Physics, create mass physics behaviors.
-- Last: Navigation learning algo, need to make a graph tree to represent level layouts then basically just reweight it based on player choices, then we override the AI path when this occurs to split them up probabilistically based on weights. Simple stupid but will freak players the fuck out if they catch on.
+- Last: Navigation learning algo, need to make a graph tree to represent level layouts then basically just reweight it based on player choices when under pursuit (so better stealth = less smart AI), then we override the AI path when this occurs to split them up probabilistically based on weights. Simple stupid but will freak players the fuck out if they catch on.
 
 
 Level design ideas:
