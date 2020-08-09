@@ -10,7 +10,8 @@ TestAI Checklist
 - AI has group vision with line of sight and distance checking for you and for group members. If another AI is within range, and another AI is too far away but within that AI's range, it will spot you. These are toggleable options too.
 
 TODO:
-- TEst Patrolling, the automatic pathing should be just fine.
+- Data table based group vision so I don't have to loop through each class every time and can just check tabulated group vision. For performance
+- Test Patrolling, the automatic pathing should be just fine.
 - Dynamic and fixed grouping, flocking behaviors (i.e. creating cool flow patterns while idle or when grouped)
 - Tune Physics, create mass physics behaviors.
 - Last: Navigation learning algo, need to make a graph tree to represent level layouts then basically just reweight it based on player choices when under pursuit (so better stealth = less smart AI), then we override the AI path when this occurs to split them up probabilistically based on weights. Simple stupid but will freak players the fuck out if they catch on.
