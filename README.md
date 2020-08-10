@@ -8,6 +8,7 @@ TestAI Checklist
 - DetourCrowdAI pathing, nice default behavior tree with smart avoidance built in. Looks really good and performs well.
 - Acceleration based movement, physicsy repulsion with variables you can control
 - AI has group vision with line of sight and distance checking for you and for group members. If another AI is within range, and another AI is too far away but within that AI's range, it will spot you. These are toggleable options too.
+- [Boids](https://en.wikipedia.org/wiki/Boids)
 
 TODO:
 - Grouping
