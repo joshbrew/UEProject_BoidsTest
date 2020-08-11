@@ -11,7 +11,8 @@ TestAI Checklist
 - [Boids](https://en.wikipedia.org/wiki/Boids)
 
 TODO:
-- Grouping
+- Need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
+- Improve the grouping as needed
 - Test Patrolling, the automatic pathing should be just fine.
 - Dynamic and fixed grouping, flocking behaviors (i.e. creating cool flow patterns while idle or when grouped)
 - Tune Physics, create mass physics behaviors.
