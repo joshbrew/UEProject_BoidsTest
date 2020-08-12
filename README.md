@@ -39,6 +39,10 @@ TestAI Checklist
 
 -- optional require line of sight to other boids 
 
+-- detourAI functions, requires them to be collision actors with gravity.
+
+-- Basic 3D navigation and environment avoidance. Plenty of tweaks possible. 
+
 - Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
 
 TODO:
