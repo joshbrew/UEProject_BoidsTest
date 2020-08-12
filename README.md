@@ -39,7 +39,7 @@ TestAI Checklist
 
 -- optional require line of sight to other boids 
 
--- detourAI functions, requires them to be collision actors with gravity.
+-- detourAI functions, requires them to be collision actors with gravity to navigate surfaces - does NOT work on flying boids so far.
 
 -- Basic 3D navigation and environment avoidance. Plenty of tweaks possible. 
 
