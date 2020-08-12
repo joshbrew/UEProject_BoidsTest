@@ -9,8 +9,35 @@ TestAI Checklist
 - Acceleration based movement, physicsy repulsion with variables you can control
 - AI has group vision with line of sight and distance checking for you and for group members. If another AI is within range, and another AI is too far away but within that AI's range, it will spot you. These are toggleable options too.
 - [Boids](https://en.wikipedia.org/wiki/Boids)
--- Boids are so cool, everything is adjustable and tied to the physics engine. Play with all of the visible default parameters to see the behavior changes. We have a full swarm AI controls. You can tweak default separation, alignment, cohesion, tethering, tether bounding box, origin (orbit point), group size (performance), grouping updates (randomized), impulse timing, group leader chance (doesn't do anything by default), predator chance (default 0). 
--- Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
+- Boids are so cool, everything is adjustable and tied to the physics engine. Play with all of the visible default parameters to see the behavior changes. We have a full swarm AI controls. 
+
+- You can tweak default 
+
+-- separation, 
+
+-- alignment, 
+
+-- cohesion, 
+
+-- tethering, 
+
+-- tether bounding box, 
+
+-- origin (orbit point), 
+
+-- group size (performance), 
+
+-- grouping updates (randomized), 
+
+-- impulse timing, 
+
+-- group leader chance (doesn't do anything by default), 
+
+-- predator chance (default 0). 
+
+-- optional require line of sight to other boids 
+
+- Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
 
 TODO:
 - May need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
