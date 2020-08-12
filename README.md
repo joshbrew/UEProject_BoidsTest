@@ -29,6 +29,8 @@ TestAI Checklist
 
 -- grouping updates (randomized),  
 
+-- grouping radius (you can combine this with grouping sizes and grouping timings to optimize further),
+
 -- impulse timing, 
 
 -- group leader chance (doesn't do anything by default), 
