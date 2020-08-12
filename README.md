@@ -46,6 +46,7 @@ TestAI Checklist
 - Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
 
 TODO:
+-  RaySphere grouping instead of random searching an array, so it's proximity-based and likely much faster.
 - May need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
 - Improve the grouping as needed. Limit group size for performance gainz, play with the regrouping timer and stuff to find a good balance for performance.
 - Test Patrolling, the automatic pathing should be just fine.
