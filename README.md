@@ -25,7 +25,9 @@ TestAI Checklist
 
 -- origin (orbit point), 
 
--- grouping sizes (for performance i.e. the nested for-loops in place create up to t x n x 2(g + b) calls per sec, so if 100 boids with size 30 local groups, firing at 10 times per second to do grouping and boids will create about 60,000 times however many sub calculations per second. Resulting in millions of calculations. I will optimize it as much as I can but keep sizes small.
+-- swirl
+
+-- grouping sizes (for performance i.e. the nested for-loops in place create potentially up to t x n x 2(g + b) calls per sec, so if 100 boids with size 30 local groups, firing at 10 times per second to do grouping and boids will create about 60,000 times however many sub calculations per second. Resulting in millions of calculations. I will optimize it as much as I can but keep group sizes small while you can still spawn a few hundred no problem.
 
 -- grouping updates (randomized),  
 
