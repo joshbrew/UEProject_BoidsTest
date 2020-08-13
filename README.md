@@ -23,7 +23,7 @@ TestAI Checklist
 
 -- tether bounding box, 
 
--- origin (orbit point), 
+-- tether origin (orbit point), 
 
 -- swirl
 
@@ -41,9 +41,11 @@ TestAI Checklist
 
 -- optional require line of sight to other boids 
 
--- detourAI functions, requires them to be collision actors with gravity to navigate surfaces - does NOT work on flying boids so far.
+-- detourAI functions, requires actors near navigable surfaces to create paths - does NOT work on flying boids unless near surfaces that are connected to you.
 
 -- Basic 3D navigation and environment avoidance. Plenty of tweaks possible. 
+
+-- Ground Boids mode looks pretty good and swarmy, toggle between flight and ground modes
 
 - Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
 
