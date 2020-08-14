@@ -11,7 +11,7 @@ TestAI Checklist
 - [Boids](https://en.wikipedia.org/wiki/Boids)
 - Boids are so cool, everything is adjustable and tied to the physics engine. Play with all of the visible default parameters to see the behavior changes. We have a full swarm AI controls. 
 
-- You can tweak default 
+- At any point in game or in editor you can tweak the:
 
 -- separation, 
 
@@ -45,9 +45,13 @@ TestAI Checklist
 
 -- Basic 3D navigation and environment avoidance. Plenty of tweaks possible. 
 
--- Ground Boids mode looks pretty good and swarmy, toggle between flight and ground modes
+-- Collision physics tweakable with simple variables (e.g. mass, inertia)
+
+-- Ground Boids mode looks pretty good and swarmy, you can toggle between flight and ground modes
 
 - Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
+
+This way we can have really good base AI and tweak their parameters to suit different areas (e.g. maybe they have swirl in one room and in another room they fly, and transition between the two procedurally)
 
 TODO:
 -  RaySphere grouping instead of random searching an array, so it's proximity-based and likely much faster.
