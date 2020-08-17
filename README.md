@@ -67,3 +67,6 @@ Level design ideas:
 - Use the enemy physics for puzzle solving
 - Flow Control puzzles - freaky crowd physics
 
+
+Card Key Level Blueprint implementation:
+![lbp](https://github.com/moothyknight/UEProject/blob/master/lbp.PNG?raw=true)
