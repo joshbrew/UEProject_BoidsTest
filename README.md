@@ -61,6 +61,11 @@ Other stuff:
 - Custom projectile for the twin stick pawn to shoot the boids with.
 
 TODO:
+- Add some acceleration and deceleration to the player pawn so movement isn't exact (easy)
+- Mouse shooting + player rotation control (easy)
+- More stealth options, more doors & buttons, other gameplay material,.
+- Get freaky wit da boids
+
 - May need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
 - Improve the grouping as needed. Limit group size for performance gainz, play with the regrouping timer and stuff to find a good balance for performance.
 - Test Patrolling, the automatic pathing should be just fine.
@@ -72,7 +77,7 @@ Level design ideas:
 - Momentum based escape puzzles
 - Physicsy items
 - Use the enemy physics for puzzle solving
-- Flow Control puzzles - freaky crowd physics
+- Flow Control puzzles - freaky crowd physics - simply set the LastKnownPosition on a boid and they will patrol over there automatically. 
 
 
 Card Key Level Blueprint implementation:
