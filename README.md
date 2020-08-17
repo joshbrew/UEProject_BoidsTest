@@ -54,7 +54,6 @@ TestAI Checklist
 This way we can have really good base AI and tweak their parameters to suit different areas (e.g. maybe they have swirl in one room and in another room they fly, and transition between the two procedurally)
 
 TODO:
--  RaySphere grouping instead of random searching an array, so it's proximity-based and likely much faster.
 - May need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
 - Improve the grouping as needed. Limit group size for performance gainz, play with the regrouping timer and stuff to find a good balance for performance.
 - Test Patrolling, the automatic pathing should be just fine.
@@ -67,3 +66,4 @@ Level design ideas:
 - Physicsy items
 - Use the enemy physics for puzzle solving
 - Flow Control puzzles - freaky crowd physics
+
