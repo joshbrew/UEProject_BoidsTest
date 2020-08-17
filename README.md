@@ -79,6 +79,9 @@ Level design ideas:
 - Use the enemy physics for puzzle solving
 - Flow Control puzzles - freaky crowd physics - simply set the LastKnownPosition on a boid and they will patrol over there automatically. 
 
+test map:
+![testmap](https://github.com/moothyknight/UEProject/blob/master/TestMap.PNG?raw=true)
+
 
 Card Key Level Blueprint implementation:
 ![lbp](https://github.com/moothyknight/UEProject/blob/master/lbp.PNG?raw=true)
