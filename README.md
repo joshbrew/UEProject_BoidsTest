@@ -49,9 +49,16 @@ TestAI Checklist
 
 -- Ground Boids mode looks pretty good and swarmy, you can toggle between flight and ground modes
 
+-- Ground Boids have navigation and different search modes: attacking (red), hunting i.e checking last known position (yellow), homing (purple), stunned (green), idle (cyan).
+
 - Boids Macro is called each tick and constrained by timers and group size limits to not eat too many resources.
 
 This way we can have really good base AI and tweak their parameters to suit different areas (e.g. maybe they have swirl in one room and in another room they fly, and transition between the two procedurally)
+
+Other stuff:
+- Particle FX tests, drop the whole folder in with your assets in the Blueprints folder
+- Key cards, Goals (just resets the level), Ammo drops, Proximity Doors (lockable, can be made to open for boids instead of the pawn)
+- Custom projectile for the twin stick pawn to shoot the boids with.
 
 TODO:
 - May need to relegate to an AI spawner so dozens of AI controllers aren't spawned, although it wasn't an issue before so maybe not.
