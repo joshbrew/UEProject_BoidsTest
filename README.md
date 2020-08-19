@@ -59,6 +59,7 @@ Other stuff:
 - Particle FX tests, drop the whole folder in with your assets in the Blueprints folder
 - Key cards, Goals (just resets the level), Ammo drops, Proximity Doors (lockable, can be made to open for boids instead of the pawn)
 - Custom projectile for the twin stick pawn to shoot the boids with.
+- Custom twin stick pawn with mouse & keyboard, as well as twin stick controller controls.
 
 TODO:
 - Add some acceleration and deceleration to the player pawn so movement isn't exact (easy)
