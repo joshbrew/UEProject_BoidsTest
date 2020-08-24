@@ -2,7 +2,7 @@
 dum dum da dum dum dum dummmm
 
 
-Just import or drag/drop the uassets into your editor. They just use default assets as the blueprints are what you want. 
+Just import or drag/drop the uassets into your editor in a Twin Stick Shooter template, replace any and all that need to be overwritten. They just use default assets mostly as the blueprints are what you want. 
 
 TestAI Checklist
 - DetourCrowdAI pathing, nice default behavior tree with smart avoidance built in. Looks really good and performs well.
