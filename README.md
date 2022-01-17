@@ -1,5 +1,7 @@
 # UEProject
-dum dum da dum dum dum dummmm
+Super inefficient blueprint based boids with a ton of inefficient methods, mainly to test lots of blueprint features and get comfortable.
+
+Originally built in UE4, (mostly) updated files in zip though some features are still missing or need to be supplemented since they were incomplete to begin with.
 
 
 Just import or drag/drop the uassets into your editor in a Twin Stick Shooter template, replace any and all that need to be overwritten. They just use default assets mostly as the blueprints are what you want. 
